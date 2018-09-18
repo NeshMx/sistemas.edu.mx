@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ingeniería en Sistemas Computacionales</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()"
+        title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">INICIO</a>
+      <a href="#carrera" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CARRERA</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACTO</a>      
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+  </div>
+
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CARRERA</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACTO</a>
+  </div>
+
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+      <img src="./img/shutterstock_148972376.jpg" style="width:100%; max-height: 300px;">
+      <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3 class="myTitle">Ingeniería en Sistemas Computacionales</h3>
+        <p class="myTitle"><b>La mejor carrera del universo</b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="./img/miscimg.jpg" style="width:100%; max-height: 300px;">
+      <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3 class="myTitle">Ingeniería en Sistemas Computacionales</h3>
+        <p class="myTitle"><b>La mejor carrera del universo</b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="./img/3.jpg" style="width:100%; max-height: 300px;">
+      <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3 class="myTitle">Ingeniería en Sistemas Computacionales</h3>
+        <p class="myTitle"><b>La mejor carrera del universo</b></p>
+      </div>
+    </div>
+
+    <!-- Professional profile section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+      <h2 class="w3-wide">PERFIL PROFESIONAL</h2>
+      <div class="w3-justify">
+        <ul>
+          <li>Diseñar, configurar y administrar redes computacionales aplicando las normas y estándares vigentes.</li>
+          <li>Desarrollar, implementar y administrar software de sistemas o de aplicación que cumpla con los estándares de calidad con el fin de apoyar la productividad y competitividad de las organizaciones.</li>
+          <li>Coordinar y participar en proyectos interdisciplinarios.</li>
+          <li>Diseñar e implementar interfaces hombre‐máquina y máquina‐máquina para la automatización de sistemas.</li>
+          <li>Identificar y comprender las tecnologías de hardware para proponer, desarrollar y mantener aplicaciones eficientes.</li>
+          <li>Diseñar, desarrollar y administrar bases de datos conforme a requerimientos definidos, normas organizacionales de manejo y seguridad de la información, utilizando tecnologías emergentes.</li>
+          <li>Integrar soluciones computacionales con diferentes tecnologías, plataformas o dispositivos.</li>
+          <li>Desarrollar una visión empresarial para detectar áreas de oportunidad que le permitan emprender y desarrollar proyectos aplicando las tecnologías de la información y comunicación.</li>
+          <li>Desempeñar sus actividades profesionales considerando los aspectos legales, éticos, sociales y de desarrollo sustentable.</li>
+          <li>Poseer habilidades metodológicas de investigación que fortalezcan el desarrollo cultural, científico y tecnológico en el ámbito de sistemas computacionales y disciplinas afines.</li>
+          <li>Seleccionar y aplicar herramientas matemáticas para el modelado, diseño y desarrollo de tecnología computacional.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Contact section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+      <h2 class="w3-wide w3-center">CONTACTO</h2>
+      <p class="w3-opacity w3-center"><i>¡Escríbenos!</i></p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker" style="width:30px"></i>Av. Tecnológico s/n 
+          esq. Gral. Mariano Escobedo.
+          Colonia Centro Histórico
+          C.P. 76000, Querétaro, Querétaro.<br>
+          <i class="fa fa-phone" style="width:30px"></i> Teléfono: (442) 227 44 00<br>
+        </div>
+        <div class="w3-col m6">
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Nombre">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Correo" required name="Correo">
+              </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Mensaje">
+            <button class="w3-button w3-black w3-section w3-right" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Page Content -->
+  </div>
+  <!-- Add Google Maps -->
+  <div id="googleMap" style="height:400px;"></div>
+  <script src="./js/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAycubOnmIzPKM6ElIPlgLkB7e25UhxBR0&callback=myMap"></script>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <a href="https://www.facebook.com/TeQueretaro/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/itqzorros" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
